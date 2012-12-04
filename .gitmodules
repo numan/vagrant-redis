@@ -1,0 +1,6 @@
+[submodule "chef/cookbooks/redis"]
+	path = chef/cookbooks/redis
+	url = https://github.com/numan/redis-cookbook.git
+[submodule "chef/cookbooks/build-essential"]
+	path = chef/cookbooks/build-essential
+	url = https://github.com/opscode-cookbooks/build-essential
