@@ -33,7 +33,7 @@ Vagrant::Config.run do |config|
     chef.add_recipe "redis::source"
 
   #   # You may also specify custom JSON attributes:
-  #   chef.json = { :mysql_password => "foo" }
+    chef.json = { :redis => { :version => "2.6.7", :appendonly => "yes" } }
   end
 
 end
