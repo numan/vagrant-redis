@@ -31,6 +31,7 @@ Vagrant::Config.run do |config|
     chef.roles_path = "chef/roles"
     chef.data_bags_path = "chef/data_bags"
     chef.add_recipe "redis::source"
+    chef.add_recipe "redis::master"
 
   #   # You may also specify custom JSON attributes:
     chef.json = { :redis => { :version => "2.6.7", :appendonly => "yes" } }
